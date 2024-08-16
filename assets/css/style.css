@@ -140,7 +140,7 @@ figure {
   }
 }
 .fh5co-cover .desc {
-  top: 55%;
+  top: 50%;
   position: absolute;
   width: 100%;
   margin-top: -100px;
@@ -515,14 +515,14 @@ figure {
 .program img {
   color: red;
   width: 70px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .program h3 {
   font-size: 20px;
 }
 .program.program-schedule {
   margin-bottom: 2em;
-  padding: 40px;
+  padding: 10px;
   background: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;

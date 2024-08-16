@@ -56,7 +56,7 @@ order: 1
 			<div class="row text-center">
 				<div class="col-md-12 schedule-container">
 					<div class="schedule-content" data-day="medical">
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/graduation.svg" alt="Graduation">
 								<small>1982</small>
@@ -65,7 +65,7 @@ order: 1
 								<span>The M S University of Baroda</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/ms.svg" alt="MS">
 								<small>1986</small>
@@ -74,7 +74,7 @@ order: 1
 								<span>The M S University of Baroda</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/mch.svg" alt="MCh">
 								<small>1989</small>
@@ -86,8 +86,8 @@ order: 1
 					</div>
 					<!-- END sched-content -->
 					<div class="schedule-content" data-day="cosmetology">
-						<div class="col-md-4 col-sm-6"></div>
-						<div class="col-md-4 col-sm-6">
+						<!-- <div class="col-md-4 col-sm-6"></div> -->
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/cosmetology.svg" alt="Cosmetology">
 								<small>2009</small>
@@ -96,12 +96,12 @@ order: 1
 								<span>The Global University</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6"></div>
+						<!-- <div class="col-md-4 col-sm-6"></div> -->
 					</div>
 					<!-- END sched-content -->
 					<div class="schedule-content" data-day="management">
-						<div class="col-md-4 col-sm-6"></div>
-						<div class="col-md-4 col-sm-6">
+						<!-- <div class="col-md-4 col-sm-6"></div> -->
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/management.svg" alt="Management">
 								<small>2003</small>
@@ -110,7 +110,7 @@ order: 1
 								<span>The Birla Institute of Technology &amp; Science</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6"></div>
+						<!-- <div class="col-md-4 col-sm-6"></div> -->
 					</div>
 					<!-- END sched-content -->
 					<div class="schedule-content" data-day="law">
@@ -184,35 +184,35 @@ order: 1
 					</div>
 					<!-- END sched-content -->
 					<div class="schedule-content active" data-day="fellowships">
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/shriners.svg" alt="Shriner's">
 								<h3>Shriner’s Hospital</h3>
 								<span>Galveston, TX, USA</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/ucdavis.svg" alt="UCDavis">
 								<h3>Shriner’s Hospital</h3>
 								<span>Sacramento, CA, USA</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/jaycee.png" alt="Jaycee">
 								<h3>Jaycee Burns Centre</h3>
 								<span>Chapel Hill, NC, USA</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/sickkids.png" alt="Sick Kids">
 								<h3>Hospital for Sick Children</h3>
 								<span>Toronto, Ontario, Canada</span>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/andrews.png" alt="St. Andrews">
 								<h3>St. Andrews Centre for Plastic Surgery and Burns</h3>

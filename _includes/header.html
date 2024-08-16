@@ -19,7 +19,7 @@
 						{% if node.title %}
 						<li {% if node.url == page.url %}class="active"{% endif %}>
 							{%- if children.size > 0 -%}
-							<a class="fh5c0-sub-ddwon" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+							<a class="fh5c0-sub-ddown" href="{{ node.url | relative_url }}">{{ node.title }}</a>
 							<ul class="fh5co-sub-menu">
 								{%- for child in children -%}
 								<li {% if child.url == page.url %}class="active"{% endif %}>
@@ -32,12 +32,13 @@
 							{% endif %}
 						</li>
 						{%- endif -%}
+						<li><a href="#footer">Contact</a></li>
 						{% endfor %}
-					
+
 					</ul>
 				</nav>
 			</div>
 		</div>
-	</header>		
+	</header>
 </div>
 <!-- end:fh5co-header -->

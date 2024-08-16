@@ -1,6 +1,6 @@
 title: Atul Shah
 url: http://127.0.0.1:4000
-baseurl: 
+baseurl:
 
 author: Saumil Shah
 description: Plastic and Cosmetic surgeon in India.
@@ -8,28 +8,28 @@ description: Plastic and Cosmetic surgeon in India.
 include: ['weight-management', 'specialties']
 exclude: ['README.md']
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "pages"
 
-    values:
-      categories: "none"
-  -
-    scope:
-      path: "/weight-management"
-      type: "pages"
+#     values:
+#       categories: "none"
+#   -
+#     scope:
+#       path: "/weight-management"
+#       type: "pages"
 
-    values:
-      categories: "weight-management"
-  -
-    scope:
-      path: "/specialties"
-      type: "pages"
+#     values:
+#       categories: "weight-management"
+#   -
+#     scope:
+#       path: "/specialties"
+#       type: "pages"
 
-    values:
-      categories: "specialties"
+#     values:
+#       categories: "specialties"
 
 markdown: kramdown
 kramdown:
