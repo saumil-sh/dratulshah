@@ -163,7 +163,7 @@ order: 1
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
 								<img src="assets/img/aoi.png" alt="AoI">
-								<h3>Association of Otolaryngologists of Inida</h3>
+								<h3>Association of Otolaryngologists of India</h3>
 								<span>Life Member</span>
 							</div>
 						</div>
