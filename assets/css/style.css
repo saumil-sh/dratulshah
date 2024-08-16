@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -1090,10 +1090,16 @@ figure {
 #footer .copy-right p a {
   color: rgba(255, 255, 255, 0.5);
 }
-#footer .contact-social-icons a {
-  font-size: 45px;
-  margin: 15px;
+
+.contact-social-icons {
+  margin-bottom: 1em;
 }
+
+#footer .contact-social-icons a {
+  font-size: 40px;
+  margin: 12px;
+}
+
 #footer .footer-brand img {
   height: 150px;
   margin-top: 10px;
