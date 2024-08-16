@@ -58,7 +58,7 @@ order: 1
 					<div class="schedule-content" data-day="medical">
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/graduation.svg" alt="Graduation">
+								<img src="assets/img/graduation.svg" alt="Graduation">
 								<small>1982</small>
 								<h3>MBBS</h3>
 								<small>(Credit in Forensic Medicine)</small>
@@ -67,7 +67,7 @@ order: 1
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/ms.svg" alt="MS">
+								<img src="assets/img/ms.svg" alt="MS">
 								<small>1986</small>
 								<h3>MS</h3>
 								<small>(ORL)</small>
@@ -76,7 +76,7 @@ order: 1
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/mch.svg" alt="MCh">
+								<img src="assets/img/mch.svg" alt="MCh">
 								<small>1989</small>
 								<h3>MCh</h3>
 								<small>(Plastic &amp; Reconstructive Surgery)</small>
@@ -89,7 +89,7 @@ order: 1
 						<div class="col-md-4 col-sm-6"></div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/cosmetology.svg" alt="Cosmetology">
+								<img src="assets/img/cosmetology.svg" alt="Cosmetology">
 								<small>2009</small>
 								<h3>MPhil</h3>
 								<small>(Cosmetology)</small>
@@ -103,7 +103,7 @@ order: 1
 						<div class="col-md-4 col-sm-6"></div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/management.svg" alt="Management">
+								<img src="assets/img/management.svg" alt="Management">
 								<small>2003</small>
 								<h3>MPhil</h3>
 								<small>(Hospital &amp; Health Systems Management)</small>
@@ -116,7 +116,7 @@ order: 1
 					<div class="schedule-content" data-day="law">
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/llm.svg" alt="PGDMLE">
+								<img src="assets/img/llm.svg" alt="PGDMLE">
 								<small>2003</small>
 								<h3>PGDMLE</h3>
 								<small>(Medical Law &amp; Ethics)</small>
@@ -125,7 +125,7 @@ order: 1
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/graduation.svg" alt="Graduation">
+								<img src="assets/img/graduation.svg" alt="Graduation">
 								<small>2005</small>
 								<h3>LLB</h3>
 								<small>(General)</small>
@@ -134,7 +134,7 @@ order: 1
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/graduation.svg" alt="Graduation">
+								<img src="assets/img/graduation.svg" alt="Graduation">
 								<small>2011</small>
 								<h3>LLB</h3>
 								<small>(Special)</small>
@@ -143,7 +143,7 @@ order: 1
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/llm.svg" alt="LLM">
+								<img src="assets/img/llm.svg" alt="LLM">
 								<small>2013</small>
 								<h3>LLM</h3>
 								<small>(Criminal Laws)</small>
@@ -155,28 +155,28 @@ order: 1
 					<div class="schedule-content" data-day="memberships">
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/ima.svg" alt="IMA">
+								<img src="assets/img/ima.svg" alt="IMA">
 								<h3><br>Indian Medical Association</h3>
 								<span>Life Member</span>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/aoi.png" alt="AoI">
+								<img src="assets/img/aoi.png" alt="AoI">
 								<h3>Association of Otolaryngologists of Inida</h3>
 								<span>Life Member</span>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/apsi.png" alt="APSI">
+								<img src="assets/img/apsi.png" alt="APSI">
 								<h3>Association of Plastic Surgeons of India</h3>
 								<span>Life Member</span>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/aaro.png" alt="AARO">
+								<img src="assets/img/aaro.png" alt="AARO">
 								<h3>All India Association for Advncing Research in Obesity</h3>
 								<span>Life Member</span>
 							</div>
@@ -186,35 +186,35 @@ order: 1
 					<div class="schedule-content active" data-day="fellowships">
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/shriners.svg" alt="Shriner's">
+								<img src="assets/img/shriners.svg" alt="Shriner's">
 								<h3>Shriner’s Hospital</h3>
 								<span>Galveston, TX, USA</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/ucdavis.svg" alt="UCDavis">
+								<img src="assets/img/ucdavis.svg" alt="UCDavis">
 								<h3>Shriner’s Hospital</h3>
 								<span>Sacramento, CA, USA</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/jaycee.png" alt="Jaycee">
+								<img src="assets/img/jaycee.png" alt="Jaycee">
 								<h3>Jaycee Burns Centre</h3>
 								<span>Chapel Hill, NC, USA</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/sickkids.png" alt="Sick Kids">
+								<img src="assets/img/sickkids.png" alt="Sick Kids">
 								<h3>Hospital for Sick Children</h3>
 								<span>Toronto, Ontario, Canada</span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="program program-schedule">
-								<img src="images/andrews.png" alt="St. Andrews">
+								<img src="assets/img/andrews.png" alt="St. Andrews">
 								<h3>St. Andrews Centre for Plastic Surgery and Burns</h3>
 								<span>Chelmsford, Essex, UK</span>
 							</div>
