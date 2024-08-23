@@ -5,8 +5,17 @@ baseurl:
 author: Saumil Shah
 description: Plastic and Cosmetic surgeon in India.
 
-include: ['weight-management', 'specialties']
+# include: ['weight-management', 'specialties']
 exclude: ['README.md']
+
+collections:
+  credentials:
+    sort_by: year
+
+  slots:
+    sort_by: start
+
+  specialties:
 
 # defaults:
 #   -

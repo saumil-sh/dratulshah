@@ -1,65 +1,20 @@
 # dratulshah
-dratulshah.com is my dad's website based on a template called fitness.
-html
-css
-bootstrap
-sass
+A personal website for professionals powered by Jekyll.
 
-
-TITLE: 
-Fitness - 100% Fully Responsive Free HTML5 Bootstrap Template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FeeeHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
-
-
-CREDITS:
-
-Bootstrap
-http://getbootstrap.com/
-
-jQuery
-http://jquery.com/
-
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
-
-Modernizr
-http://modernizr.com/
-
-Google Fonts
-https://www.google.com/fonts/
-
-Icomoon
-https://icomoon.io/app/
-
-SVG Icons
-http://flaticon.com
-
-Images
-http://unsplash.com/
-
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
-
-animate.css
-http://daneden.me/animate
-
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Superfish Menu
-http://users.tpg.com.au/j_birch/plugins/superfish/examples/
-
-hoverIntent
-https://github.com/briancherne/jquery-hoverIntent
-
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
-Google Map
-http://maps.google.com
+## Credits:
+- [FreeHTML5](http://freehtml5.co/)
+- [Bootstrap](http://getbootstrap.com/)
+- [jQuery](http://jquery.com/)
+- [jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/)
+- [Modernizr](http://modernizr.com/)
+- [Google Fonts](https://www.google.com/fonts/)
+- [Font-awesome](https://icomoon.io/app/)
+- [SVG Icons](http://flaticon.com)
+- [Images](http://unsplash.com/)
+- [Respond JS](https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT)
+- [animate.css](http://daneden.me/animate)
+- [jQuery Waypoint](https://github.com/imakewebthings/waypoints/blog/master/licenses.txt)
+- [Superfish Menu](http://users.tpg.com.au/j_birch/plugins/superfish/examples/)
+- [hoverIntent](https://github.com/briancherne/jquery-hoverIntent)
+- [Stellar Parallax](http://markdalgleish.com/projects/stellar.js/)
+- [Google Map](http://maps.google.com)

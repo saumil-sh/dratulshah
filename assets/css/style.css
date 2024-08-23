@@ -514,8 +514,8 @@ figure {
 }
 .program img {
   color: red;
-  width: 70px;
-  margin-bottom: 10px;
+  height: 70px;
+  /* margin-bottom: 10px; */
 }
 .program h3 {
   font-size: 20px;
@@ -533,7 +533,13 @@ figure {
   transition: 0.3s;
 }
 .program.program-schedule img {
-  width: 70px !important;
+  height: 90px !important;
+  padding: 10px;
+}
+.program.program-schedule i {
+  font-size: 70px;
+  color: #933EC5;
+  padding: 10px;
 }
 .program.program-schedule h3 {
   margin-bottom: 0;
@@ -1096,8 +1102,8 @@ figure {
 }
 
 #footer .contact-social-icons a {
-  font-size: 40px;
-  margin: 12px;
+  font-size: 30px;
+  margin: 10px;
 }
 
 #footer .footer-brand img {
