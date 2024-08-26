@@ -8,7 +8,7 @@ parts:
   - skin
   - head
   - body
-apart:
+apart: head
 types:
   - memberships
   - medical
@@ -23,7 +23,7 @@ days:
   - tuesday
   - wednesday
   - thursday
-aday:
+aday: monday
 ---
 <div class="fh5co-hero">
 	<div class="fh5co-overlay"></div>
@@ -63,16 +63,16 @@ aday:
 		</div>
 		<div class="row animate-box">
 			<div class="col-md-10 col-md-offset-1 text-center">
-				<ul class="schedule">
+				<ul class="specialty">
 					{% for part in page.parts %}
-  					<li><a href="#" {% if part == page.apart %}class="active"{% endif %} data-sched="{{ part }}">{{ part | capitalize }}</a></li>
+  					<li><a href="#" {% if part == page.apart %}class="active"{% endif %} data-spec="{{ part }}">{{ part | capitalize }}</a></li>
 					{% endfor %}
 				</ul>
 			</div>
 			<div class="row text-center">
-				<div class="col-md-12 schedule-container">
+				<div class="col-md-12 specialty-container">
 					{% for bodypart in page.parts %}
-					<div class="schedule-content {% if bodypart == page.apart %}active{% endif %}" data-day="{{ bodypart }}">
+					<div class="specialty-content {% if bodypart == page.apart %}active{% endif %}" data-day="{{ bodypart }}">
 						{% assign specialties = site.specialties | where: "part", bodypart %}
 						{%- for spec in specialties -%}
 						<div class="col-md-3 col-sm-6">
@@ -83,7 +83,7 @@ aday:
 						</div>
 						{%- endfor -%}
 					</div>
-					<!-- END sched-content -->
+					<!-- END spec-content -->
 					{%- endfor -%}
 				</div>
 			</div>
@@ -92,7 +92,7 @@ aday:
 </div>
 <!-- end: fh5co-parallax -->
 
-<div class="fh5co-parallax" style="background-image: url(assets/img/home-image.jpg);" data-stellar-background-ratio="0.5">
+<div class="separator">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row">
@@ -119,16 +119,16 @@ aday:
 		</div> -->
 		<div class="row animate-box">
 			<div class="col-md-10 col-md-offset-1 text-center">
-				<ul class="schedule">
+				<ul class="credential">
 					{% for cred_type in page.types %}
-  					<li><a href="#" {% if cred_type == page.atype %}class="active"{% endif %} data-sched="{{ cred_type }}">{{ cred_type | capitalize }}</a></li>
+  					<li><a href="#" {% if cred_type == page.atype %}class="active"{% endif %} data-cred="{{ cred_type }}">{{ cred_type | capitalize }}</a></li>
 					{% endfor %}
 				</ul>
 			</div>
 			<div class="row text-center">
-				<div class="col-md-12 schedule-container">
+				<div class="col-md-12 credential-container">
 					{% for cred_type in page.types %}
-					<div class="schedule-content {% if cred_type == page.atype %}active{% endif %}" data-day="{{ cred_type }}">
+					<div class="credential-content {% if cred_type == page.atype %}active{% endif %}" data-day="{{ cred_type }}">
 						{% assign creds = site.credentials | where: "type", cred_type %}
 						{%- for cred in creds -%}
 						<div class="col-md-3 col-sm-6">
@@ -146,7 +146,7 @@ aday:
 						</div>
 						{%- endfor -%}
 					</div>
-					<!-- END sched-content -->
+					<!-- END cred-content -->
 					{%- endfor -%}
 				</div>
 			</div>
@@ -155,7 +155,7 @@ aday:
 </div>
 <!-- end: fh5co-parallax -->
 
-<div class="fh5co-parallax" style="background-image: url(assets/img/home-image.jpg);" data-stellar-background-ratio="0.5">
+<div class="separator">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row">

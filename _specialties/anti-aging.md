@@ -3,5 +3,5 @@ part: body
 image:
 graphic:
 name: Anti Aging
-procedure:
+procedure: miscellaneous
 ---

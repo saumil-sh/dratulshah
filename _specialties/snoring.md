@@ -2,6 +2,6 @@
 part: head
 image:
 graphic:
-name: Nose
-procedure: rhinoplasty
+name: Snoring
+procedure:
 ---

@@ -125,6 +125,54 @@
 	};
 
 
+	var specialtyTab = function() {
+		$('.specialty-container').css('height', $('.specialty-content.active').outerHeight());
+
+		$(window).resize(function(){
+			$('.specialty-container').css('height', $('.specialty-content.active').outerHeight());
+		});
+
+		$('.specialty a').on('click', function(event) {
+
+			event.preventDefault();
+
+			var $this = $(this),
+				spec = $this.data('spec');
+
+			$('.specialty a').removeClass('active');
+			$this.addClass('active');
+			$('.specialty-content').removeClass('active');
+
+			$('.specialty-content[data-day="'+spec+'"]').addClass('active');
+
+		});
+	};
+
+
+	var credentialTab = function() {
+		$('.credential-container').css('height', $('.credential-content.active').outerHeight());
+
+		$(window).resize(function(){
+			$('.credential-container').css('height', $('.credential-content.active').outerHeight());
+		});
+
+		$('.credential a').on('click', function(event) {
+
+			event.preventDefault();
+
+			var $this = $(this),
+				cred = $this.data('cred');
+
+			$('.credential a').removeClass('active');
+			$this.addClass('active');
+			$('.credential-content').removeClass('active');
+
+			$('.credential-content[data-day="'+cred+'"]').addClass('active');
+
+		});
+	};
+
+
 	var scheduleTab = function() {
 		$('.schedule-container').css('height', $('.schedule-content.active').outerHeight());
 
@@ -155,6 +203,8 @@
 		offcanvas();
 		mobileMenuOutsideClick();
 		contentWayPoint();
+		specialtyTab();
+		credentialTab();
 		scheduleTab();
 	});
 

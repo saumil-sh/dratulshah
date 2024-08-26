@@ -554,26 +554,26 @@ figure {
   box-shadow: 0px 6px 55px -23px rgba(0, 0, 0, 0.72);
 }
 
-.schedule {
+.specialty, .credential, .schedule{
   padding: 0;
   margin: 0 0 40px 0;
 }
-.schedule li {
+.specialty li, .credential li, .schedule li {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
   font-size: 16px;
 }
-.schedule li a {
+.specialty li a, .credential li a, .schedule li a {
   color: rgba(0, 0, 0, 0.5);
   padding: 5px 20px;
   cursor: pointer;
 }
-.schedule li a:active, .schedule li a:focus {
+.specialty li a:active, .specialty li a:focus, .credential li a:active, .credential li a:focus, .schedule li a:active, .schedule li a:focus {
   text-decoration: none;
 }
-.schedule li a.active {
+.specialty li a.active, .credential li a.active, .schedule li a.active {
   background: #4CB648;
   color: #fff !important;
   -webkit-border-radius: 30px;
@@ -582,7 +582,7 @@ figure {
   border-radius: 30px;
 }
 @media screen and (max-width: 768px) {
-  .schedule li {
+  .specialty li , .credential li, .schedule li {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
@@ -592,7 +592,7 @@ figure {
   }
 }
 
-.schedule-content {
+.specialty-content, .credential-content, .schedule-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -603,7 +603,7 @@ figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.schedule-content.active {
+.specialty-content.active, .credential-content.active, .schedule-content.active {
   opacity: 1;
   visibility: visible;
 }
@@ -1003,6 +1003,14 @@ figure {
 .fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
   text-decoration: none;
   color: #212121;
+}
+
+.separator {
+  background: #222831;
+}
+
+.separator h1{
+  color: #fff;
 }
 
 #footer {
